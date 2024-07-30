@@ -27,6 +27,7 @@ find_package(trajectory_msgs REQUIRED)
 
 
 set(msg_files
+  "msg/ServoStatus.msg"
   "msg/AllowedCollisionEntry.msg"
   "msg/AllowedCollisionMatrix.msg"
   "msg/AttachedCollisionObject.msg"
@@ -76,6 +77,7 @@ set(msg_files
 )
 
 set(srv_files
+  "srv/ServoCommandType.srv"
   "srv/GetMotionPlan.srv"
   "srv/GetStateValidity.srv"
   "srv/GetCartesianPath.srv"
